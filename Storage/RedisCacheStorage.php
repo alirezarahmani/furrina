@@ -2,9 +2,6 @@
 
 namespace Furrina\Storage;
 
-use Brisk\ORM\Cache\CacheStorageInterface;
-use Brisk\ORM\Setting;
-
 class RedisCacheStorage implements CacheStorageInterface
 {
 

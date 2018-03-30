@@ -1,0 +1,16 @@
+memcached:
+  mcrouter: tcp://127.0.0.1:11211
+  hosts:
+    - tcp://127.0.0.1:11211
+mysql:
+  default:
+    uri: mysql:host=127.0.0.1;port=3306;dbname=local;charset=utf8mb4
+    user: root
+    pass:
+redis:
+  default:
+    uri: tcp://redis:6379
+thread_id:
+mysql_uri: localhost
+code: 1
+mode: 1

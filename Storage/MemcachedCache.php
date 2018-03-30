@@ -3,8 +3,6 @@
 namespace Furrina\Storage;
 
 use Memcached;
-use Brisk\ORM\Cache\CacheStorageInterface;
-use Brisk\ORM\Setting;
 use InvalidArgumentException;
 
 class MemcachedCache implements CacheStorageInterface

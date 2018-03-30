@@ -4,6 +4,7 @@
   "license": "BSD-2-Clause",
   "require": {
     "php": "^7.2",
+    "symfony/yaml": "4.*",
     "ext-apcu": "*"
   },
   "author":
