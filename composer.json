@@ -1,0 +1,13 @@
+{
+  "name": "furrina/furrina-storage",
+  "description": "Furrina a multi propose php 7 storage",
+  "require": {
+    "php": "^7.2",
+    "ext-apcu": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Furrina\\Storage\\": "Storage/"
+    }
+  }
+}
