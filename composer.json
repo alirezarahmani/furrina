@@ -1,10 +1,17 @@
 {
   "name": "furrina/furrina-storage",
   "description": "Furrina a multi propose php 7 storage",
+  "license": "BSD-2-Clause",
   "require": {
     "php": "^7.2",
     "ext-apcu": "*"
   },
+  "author":
+    {
+      "name": "Alireza Rahmani Khalili",
+      "email": "alirezarahmani@live.com",
+      "role": "Lead Developer"
+    },
   "autoload": {
     "psr-4": {
       "Furrina\\Storage\\": "Storage/"
